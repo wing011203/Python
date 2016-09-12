@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
 	name = 'nester-sample',
-	version = '1.2.0',
+	version = '1.3.0',
 	py_modules = ['nester'],
 	author = "Pan Li",
 	author_email = "wing011203@163.com",
