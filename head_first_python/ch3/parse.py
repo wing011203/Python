@@ -35,6 +35,18 @@ def parseContent():
 	#import nester
 	#nester.print_lol(result)
 
+def displayContent():
+	print("Man content: ")
+	with open('man-data') as man_data:
+		for each_line in man_data:
+			print(each_line)
+
+	print("Other Man content: ")
+	with open('other-data') as other_data:
+		for each_line in other_data:
+			print(each_line)
+
 
 if __name__ == '__main__':
 	parseContent()
+	displayContent()
